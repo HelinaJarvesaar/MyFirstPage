@@ -1,0 +1,90 @@
+/* impordin google fonts lehelt korraga kõik fondid mida soovin */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Russo+One&display=swap');
+
+
+
+body {
+    background-color: rgb(229, 229, 229);
+    font-family: "Roboto", sans-serif;
+    /* sans serif on vaikimisi väärtus, kui minu font ei tööta*/
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    width: 300px;
+
+
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+h3 {
+    font-family: "Russo One", sans-serif;
+    color: #3D4677;
+    text-align: center;
+}
+#logo{
+    font-size: 32px;
+}
+#iam {
+    color: #BFA9A0;
+}
+
+ul {
+    text-align: center;
+    list-style: none;
+    padding: 0;
+}
+
+
+table {
+    border-collapse: collapse;
+    min-width: 300px;
+    margin: 20px auto; /* auto-ga keskele, sest table on block type*/
+}
+
+th, td{
+    padding: 12px 15px;
+}
+
+td {
+    text-align: center;
+}
+.line{
+    border-bottom: 1px solid #BFA9A0;
+}
+
+#figma {
+    color: #DB7559;
+}
+
+#html {
+    color: #3D4677;
+}
+
+
+
+p {
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    width: 200px;
+    text-align: center;
+    display: block;
+    margin: 20px auto;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+hr{
+    width: 200px;
+    height: 6px;
+    background-color: #DB7559;
+    border-radius: 7px;
+}
